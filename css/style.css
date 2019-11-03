@@ -1,13 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
 
-html,
-body {
+html, body {
   box-sizing: border-box;
   height: 100%;
   width: 100%;
 }
 
-/*#E1332D*/
 body {
   background: black;
   font-family: 'Roboto', sans-serif;
@@ -103,6 +101,11 @@ p a:hover {
   color: #E1332D;
 }
 
+.info-p {
+  text-align: center;
+  padding-top: 0%;
+}
+
 .btn {
   color: #fff;
   cursor: pointer;
@@ -125,8 +128,51 @@ p a:hover {
   text-decoration: none;
 }
 
+.btn-1 {
+  letter-spacing: 0;
+  padding-bottom: 50%;
+  padding-left: 2%;
+  position: fixed;
+}
+
+.btn-1:hover,
+.btn-1:active {
+  letter-spacing: 5px;
+}
+
+.btn-1:after,
+.btn-1:before {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border: 1px solid rgba(255, 255, 255, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+.btn-1:hover:after,
+.btn-1:hover:before {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border-color: #fff;
+  transition: width 350ms ease-in-out;
+  width: 70%;
+}
+
+.btn-1:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 70%;
+}
+
 .btn-2 {
   letter-spacing: 0;
+  padding-bottom: 42%;
+  padding-right: 87.5%;
 }
 
 .btn-2:hover,

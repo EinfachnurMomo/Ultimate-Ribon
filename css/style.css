@@ -1,1 +1,21 @@
-/* Just for github*/
+body {
+    background-color: black;
+    position: fixed;
+}
+
+.logo-1 {
+    height: 310px;
+    width: 400px;
+    padding-bottom: 0%;
+}
+
+.btn {
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding-top: 0%;
+}

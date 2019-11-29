@@ -1,0 +1,46 @@
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+header {
+    background: black;
+    color: white;
+    padding-top: 2px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+#branding img {
+    width: 400px;
+    height: 250px;
+}
+
+#branding {
+    padding: 0px 0 0px 0;
+}
+
+#nav {
+    background-color: black;
+    padding: 15px 0px 15px 390px;
+}
+
+#nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+#nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+#nav li {
+    float: unset;
+    display: inline;
+    padding: 0 200px 0 0;
+}

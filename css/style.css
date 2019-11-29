@@ -38,12 +38,7 @@ header #branding img {
 
 header nav {
     float: left;
-    margin-top: -100px;
-}
-
-header .current a {
-    color: #e8491d;
-    font-weight: bold;
+    margin-top: -40px;
 }
 
 header a:hover {

@@ -9,5 +9,5 @@ selectElement('.open').addEventListener('click', () => {
 
 // Schließt das Menü beim klicken
 selectElement('.close').addEventListener('click', () => {
-    selectElement('.nav-list').classList.add('active');
+    selectElement('.nav-list').classList.remove('active');
 });
